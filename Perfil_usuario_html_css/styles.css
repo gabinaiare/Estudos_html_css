@@ -1,0 +1,41 @@
+body{
+    background-color: aliceblue;
+    background-image: url("https://i.pinimg.com/originals/19/10/5a/19105a121908b28a2588e889f9096f86.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+div{
+    background-color: mediumpurple;
+    color: white;
+    font-family: Trebuchet MS;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 550px;
+    margin-right: 550px;
+    border-radius: 10px;
+    height: 800px;
+}
+
+img{
+    border-radius: 175px;
+    margin: 30px;
+    border: solid 5px aliceblue;
+}
+
+h2{
+    margin-bottom: 50px;
+}
+
+a{
+    background-color: aliceblue;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: block;
+    text-align: center;
+    color: blueviolet;
+}
