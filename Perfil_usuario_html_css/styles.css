@@ -1,41 +1,66 @@
-body{
-    background-color: aliceblue;
+html, body {
+    height: 100%; /* Garantir que o body ocupe 100% da altura */
+    margin: 0;    /* Remover margens */
+    overflow: hidden; /* Esconder qualquer parte da imagem que ultrapasse a tela */
+}
+
+body {
     background-image: url("https://i.pinimg.com/originals/19/10/5a/19105a121908b28a2588e889f9096f86.gif");
     background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-div{
-    background-color: mediumpurple;
-    color: white;
-    font-family: Trebuchet MS;
+    background-size: cover; /* A imagem vai cobrir toda a tela */
+    background-position: center; /* A imagem será centralizada */
+    font-family: "Cambria", sans-serif;
     text-align: center;
-    margin-top: 70px;
-    margin-left: 550px;
-    margin-right: 550px;
+    min-height: 100vh; /* Garante que a altura mínima do body seja 100% da altura da tela */
+    margin: 0; /* Remove margens */
+}
+
+#container {
+    display: flex; /* Coloca os elementos lado a lado */
+    align-items: flex-start; /* Alinha os elementos pelo topo */
+    gap: 20px; /* Espaçamento entre os blocos */
+    margin: 40px;
+}
+
+.bloco{
+    background-color: #888dda;
+    color: white;
+    text-align: left;
+    max-width: 400px;
     border-radius: 10px;
-    height: 800px;
+    padding: 20px;
+    display: block;
 }
 
-img{
-    border-radius: 175px;
-    margin: 30px;
-    border: solid 5px aliceblue;
+img {
+    border-radius: 50%;
+    margin: 50px;
+    border: solid 5px #21b6b6;
+    width: 80%;
+    max-width: 350px;
+    max-height: 300px;
+    object-fit: cover;
 }
 
-h2{
-    margin-bottom: 50px;
+h2 {
+    margin-bottom: 20px;
 }
 
-a{
-    background-color: aliceblue;
+a {
+    background-color: #21b6b6;
     font-size: 20px;
     border-radius: 10px;
     padding: 10px;
-    margin-top: 15px;
-    margin-left: 50px;
-    margin-right: 50px;
     display: block;
+    margin: 10px auto;
     text-align: center;
-    color: blueviolet;
+    color: white;
+    text-decoration: none;
+    width: 80%;
+    max-width: 200px;
+}
+
+a:hover {
+    background-color: white;
+    color: #888dda;
 }
